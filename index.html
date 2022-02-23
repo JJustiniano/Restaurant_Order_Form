@@ -1,0 +1,52 @@
+<!--Julian Justiniano-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Billy Bob's Burgers & Subs Order Form</title>
+</head>
+<body>
+<p>Billy Bob's Burgers & Subs</p>
+<p>Food with attitude</p>
+<p>Order Form</p>
+<form method="post" action="">
+    <p>Customer Name:
+        <br><input type="text" name="customerNameField"><br>
+
+        Email:
+        <br><input type="text" name="emailField"><br>
+
+        Password:
+        <br><input type="password" name="passField"><br>
+
+        Comments:
+        <br><textarea name="commentsTextarea" cols="30" rows="3"></textarea>
+    </p>
+    <p>Type:
+        <select name="selectType">
+            <option value="Burger">Burger</option>
+            <option value="Sub">Sub</option>
+        </select>
+    </p>
+    <div>
+        Size:
+        <br><input type="radio" name="pattiesQuantity" value="Small"> Small
+        <br><input type="radio" name="pattiesQuantity" value="Large"> Large
+
+
+    </div>
+
+    <div>
+        <br>Toppings:
+        <br>Lettuce: <input type="checkbox" name="lettuceCheckbox" value="Lettuce">
+        <br>Tomato: <input type="checkbox" name="tomatoCheckbox" value="Cheese">
+        <br>Cheese: <input type="checkbox" name="cheeseCheckbox" value=" Cheese">
+    </div>
+
+    <br><input type="submit" name="Place Order" value="Place Order">
+
+
+</form>
+</body>
+</html>
